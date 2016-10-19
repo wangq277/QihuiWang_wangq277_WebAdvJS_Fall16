@@ -1,7 +1,9 @@
 
 @media all and (max-width: 800px) {
-	body{
-		background-color: pink;
+.header{
+    height: 80px;
+    margin: 10px;
+    text-align: center;
 	}
 }
 

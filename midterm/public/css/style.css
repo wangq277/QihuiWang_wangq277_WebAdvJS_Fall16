@@ -1,0 +1,264 @@
+/* your style begins here */
+/*[class^=words] + *{
+  display:none;
+}
+[class^=words]:target + *{
+  display:block;
+}*/
+
+.close{
+    background-color: #ffaaa5;
+    border-radius: 4px;
+    border-style:solid;
+    color:white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+  /*  text-color:white;*/
+    display: inline-block;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.6;
+    /*cursor: allowed;*/
+    /*margin-left: 34%;*/
+    margin-top: 45%;
+
+}
+
+.happy{
+    background-color:#beebf2;
+    border-radius: 4px;
+    border-style:solid;
+    color:white;
+    padding: 7px 23px;
+    text-align: center;
+    text-decoration: none;
+  /*  text-color:white;*/
+    display: inline-block;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.6;
+    /*cursor: allowed;*/
+    /*margin-left: 34%;*/
+    margin-top: 5%;
+
+}
+/*
+.hideI{
+    
+    background-color: #beebf2;;
+    border-radius: 4px;
+    border-style:solid;
+    color:white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.6;
+    
+    margin-left: 34%;
+    margin-top: 5%;
+
+}*/
+
+/*.showI{
+    
+    background-color: #beebf2;;
+    border-radius: 4px;
+    border-style:solid;
+    color:white;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+  
+    display: inline-block;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.6;
+   
+    margin-left: 50%;
+    margin-top: 5%;
+
+}
+*/
+.face{
+  
+text-align: center;
+
+}
+#face1{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  
+
+  animation: mymove 2s infinite;
+  animation-iteration-count: 2 infinite;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes mymove {
+    from {top: 30px;}
+    to {top: 0px;}
+}
+
+
+#face2{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+  animation: mymoveI 2s infinite;
+  animation-iteration-count: 2 infinite;
+  animation-fill-mode: forwards;
+
+
+}
+
+@keyframes mymoveI {
+    from {top: 0px;}
+    to {top: 30px;}
+}
+
+#face3{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+
+ animation: mymoveII 2s infinite;
+  animation-iteration-count: 2 infinite;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes mymoveII {
+    from {top: 30px;}
+    to {top: 0px;}
+}
+
+
+/*.back{
+    background-color:#c0d6e4;
+    border-radius: 4px;
+    color:white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+    text-color:white;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+   opacity: 0.6;
+    /*cursor: allowed;*/
+   
+
+
+
+/*.button2 {border-radius: 4px;}*/
+input{
+  
+  padding:8px;
+  border-width: 3px;
+  border-color:#c0d6e4;
+  border-style:solid;
+  
+
+}
+
+.sub{
+    background-color: #ffaaa5;
+    border-radius: 4px;
+    color:white;
+    padding: 5px 18px;
+    text-align: center;
+    text-decoration: none;
+  /*  text-color:white;*/
+    display: inline-block;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+   opacity: 0.6;
+    /*cursor: allowed;*/
+
+}
+
+
+
+
+.Absolute-Center {  
+  margin: auto;  
+  position: absolute;  
+  top: 0; left: 0; bottom: 0; right: 0;  
+}  
+
+body {
+	background-color: white;
+}
+.words {
+	margin: 3px;
+	list-style: center;
+	color: #f2c5be;
+  /*padding:20px;*/
+  padding-top: 8%;
+  text-align: center;
+}
+
+.words li {
+	display: inline-block;
+	width: 25vw;
+	height: 25vw;
+	margin:5px 5px 5px 5px;
+	padding: 20px;
+	border: 4px dotted #c0d6e4;
+  border-radius:24px; 
+}
+.words li h2 {
+	margin-bottom: 0;
+	/*padding:25px;
+	color:#beebf2;
+	font-family: Helvetica, sans-serif;
+	text-align:center; */
+}
+
+h1 {
+	margin-bottom: 0;
+	padding:45px;
+	color:#beebf2;
+	font-family: Helvetica, sans-serif;
+	text-align:center; 
+  font-size: 35px;
+}
+
+h3 {
+  margin-bottom: 0;
+  padding:45px;
+  color:#beebf2;
+  font-family: Helvetica, sans-serif;
+  text-align:center; 
+  font-size: 35px;
+}
+
+h2{
+  margin-bottom: 0;
+	padding:2px;
+	color:#beebf2;
+	font-family: Helvetica, sans-serif;
+	text-align:center; 
+  font-size: 24px;
+  margin-top: 10%;
+}
+.sample-sentence {
+	font-family: Helvetica, sans-serif;
+}
+
+.mood{
+
+padding: 3%;
+text-align: center;
+
+}

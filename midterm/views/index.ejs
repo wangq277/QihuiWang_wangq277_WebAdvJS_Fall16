@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+
+  
+  <h1>How Do You Feel Today?</h1>
+ 
+ <div class="face">
+ 
+ <img id="face1" src="image/face1.png"></img>
+ 
+ <img id="face2" src="image/face2.png"></img>
+ 
+ <img id="face3" src="image/face3.png"></img>
+ </div>
+
+ </div>
+
+  <ul class="words">
+  <% for(var i=0; i<words.length; i++) {%>
+    <li class="word">
+      <h2><%= words[i].word %></h2>
+      <p class="definition"><%= words[i].definition %></p>
+    <!--   <p class="sample-sentence"><%= words[i]['sample-sentence'] %></p> -->
+       <button class = "close" type="delete">Delete</button>
+    </li>
+  <% } %>
+     <button class = "happy" type="click">Hide</button>
+   
+  </ul>
+
+    <!-- <button class = "hideI" type="hideI">Hide</button>
+    <button class = "showI" type="showI">Show</button>
+ -->
+
+  <h3>Express Your Mood Here!</h3>
+  <div class = "mood">
+  <form action="/words" method="POST">
+    <input type="text" placeholder="Mood" name="word">
+    <input type="text" placeholder="Why" name="definition">
+    <!-- <textarea placeholder="Share events" name="sample-sentence"></textarea> -->
+    <button class = "sub" type="submit">Submit</button>
+  </form>
+  </div>
+
+</body>
+<script src="js/jquery-min.js"></script>
+<script src="js/main.js"></script>
+</html>

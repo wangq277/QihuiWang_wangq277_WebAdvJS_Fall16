@@ -4,7 +4,7 @@ var x = Xray();
 // 1st argument: URL you want to scrape
 // 2nd argument: the selector that you want to grab
 // 3rd argument: the array containing object of what you want to be passed on
-x('https://www.youtube.com/results?search_query=cat', '.item-section', [{
+x('https://www.youtube.com/results?search_query=cat', '.container', [{
 	videos: x('.yt-lockup-dismissable', [{
 		title: '.yt-lockup-title a@title',
 		link: '.yt-lockup-title a@href',
