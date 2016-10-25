@@ -1,0 +1,50 @@
+body{
+    background:#F9EEF0;
+    margin:0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1{
+  text-align: center;
+  color:#958E90;
+  font-family: Helvetica, sans-serif;
+  letter-spacing:1.5px;
+
+}
+
+#container {
+  top: 15%;
+ /* width: 100%;*/
+  position:absolute;
+  align-items: center;
+  margin-left: 400px;
+}
+
+	#container #search,
+	#container #view{
+		padding: 20px;
+	}
+
+		#container #search input, button{
+			outline: none;
+			border: 3px #9933FF;
+			font-size: 28px !important;
+			line-height: 1.2em !important;
+			padding: 15px 20px !important;
+		}
+
+		#container #search input{
+			width: 450px;
+			max-width: 100%;
+		}
+
+		#container #search button{
+			background-color: #958E90;
+			color: white;
+		}
+
+	#container #view .gallery-item{
+		margin: 10px;
+	}
