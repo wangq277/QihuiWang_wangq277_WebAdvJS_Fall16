@@ -1,0 +1,74 @@
+/* your style begins here */
+body{
+	padding: 10px;
+	background: #f6f6f6;
+}
+
+
+#defaultCanvas0{
+	margin-top: 2%;
+    margin-left: 5%;
+   /* float: right;*/
+}
+/*#content {
+    float: right;
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: url('../img/background.png') no-repeat;
+}*/
+
+#background{
+   width: 100%;
+}
+
+/*a {
+      position: absolute;
+    text-align: center;
+    top: 33%;
+    width: 200px;
+    height: 150px;
+    left:13%;
+    }*/
+
+
+#start{
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    width: 50%;
+   
+    left:23%;
+
+}
+
+#content{    
+    background-position: 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 35px;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 55px;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #45CCFF;
+}
